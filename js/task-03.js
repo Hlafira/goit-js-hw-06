@@ -23,7 +23,7 @@ const images = [
 const galleryEl = document.querySelector(".gallery");
 
 const addImage = ({ url, alt }) => {
-  return `<li><img src="${url}  alt="$alt" loading=lazy></li>`;
+  return `<li><img src="${url}  alt="${alt}" loading=lazy h></li>`;
 };
 const imagesMarkup = images.map(addImage).join(" ");
 
